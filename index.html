@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>Test</title>
+
+<style>
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  background: url(bg.png) repeat;
+}
+#wrapper{
+  background-color: #D4DBF2;
+  margin: 0px 10% 0px 10% ;
+  width: 80%;
+  height: 750px;
+}
+
+#header{
+  background-color: #288ECC;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px  2px 2px  #808080, 0px  -2px 2px #808080;
+  margin-bottom: 3px;
+}
+
+#signup{
+  background-color: #1531CC;
+  color: #CBC9CC;
+  width: 55px;
+  float: left;
+  margin: 25px;
+  border-radius: 2px;
+  padding-left: 12px;
+  padding-bottom: 5px;
+}
+#signup:hover{
+  color: #CC9597;
+  background-color: #1D10CC;
+}
+h1{
+  text-align: center;
+  padding-top: 15px;
+}
+
+#navbar{
+  width: 100%;
+  height: 45px;
+  background-image: -webkit-gradient(linear, top, bottom, color-stop(0, #288ECC), color-stop(1, #0060BF));
+  background-image: -o-linear-gradient(top, #288ECC, #0060BF);
+  background-image: -moz-linear-gradient(top, #288ECC, #0060BF);
+  background-image: -webkit-linear-gradient(top, #288ECC, #0060BF);
+  background-image: linear-gradient(to bottom, #288ECC, #0060BF);
+  }
+li{
+    text-decoration: none ;
+    float: right;
+    display: block;
+    margin-right: 10%;
+    margin-top: 10px;
+}
+a{
+  color: white;
+}
+input[type='search']{
+  margin: 13px 13px;
+  width: 200px;
+}
+
+.nav{
+  background: #E2E2E4;
+  border: 1px solid #7F9ECC;
+  width: 20%;
+  height: 250px;
+  margin: 5px 2px;
+  border-radius: 2px;
+}
+.caption{
+  background-color: #5D76D0;
+  width:100%;
+  height: 40px;
+}
+
+</style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+          <a href="#">
+          <div id="signup">
+            sign up
+          </div>
+          </a>
+
+          <h1>Hello World</h1>
+
+        </div>
+
+        <div id="navbar">
+          <ul>
+            <a href="#"><li>home</li></a>
+            <a href="#"><li>link</li></a>
+            <a href="#"><li>link</li></a>
+            <a href="#"><li>link</li></a>
+          </ul>
+           <input type="search" placeholder="search something..." />
+        </div>
+        <div id="main">
+            <div class="nav">
+              <div class="caption"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
