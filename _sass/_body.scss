@@ -1,0 +1,43 @@
+
+@font-face {
+    font-family: "yekan";
+    src: url(../fonts/Yekan.eot);
+    src: url(../fonts/Yekan.eot?#iefix) format("embedded-opentype"), 
+		 url(../fonts/Yekan.woff) format("woff"),
+		 url(../fonts/Yekan.ttf) format("truetype"),
+		 url(../fonts/Yekan.svg#BYekan) format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+@font-face {
+    font-family: "iransans";
+    src: url(../fonts/irsans.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+body{
+  background:rgb(249, 220, 165);
+  direction:rtl;
+}
+h1{
+	font-family:yekan;
+}
+p{
+	font-family:iransans;
+}
+.site-nav .page-link:hover{
+	color:#cBb7F7;
+}
+a:hover{
+	color:blue;
+	text-decoration: none;
+}
+.myimg{
+	margin-right:50%;
+	width:300px;
+	height:180px; 
+}
+.sampleimg{
+	margin-right:10px;
+	border:2px solid #fff;
+}
